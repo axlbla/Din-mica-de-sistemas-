@@ -139,7 +139,7 @@ $$L[f^{n}(t)]=s^{n}F(s)-s^{n-1}f(0)-...-sf^{n-1}(0)-f^{n}(0)$$
 
 ## 6.Descomposición en Fracciones Parciales 
 
-Se identifican cuatro casos, pero en esta clase solo vimos uno de ellos. Se propusieron algunos ejercicios en clase. 
+Se identifican tres casos, pero en esta clase solo vimos uno de ellos. Se propusieron algunos ejercicios en clase. 
 
  ### 6.1.Caso 1
 
@@ -196,7 +196,7 @@ En un breve espacio, nos explicó cómo crear una cuenta de GitHub para el méto
 
 ## 8.Conclusiones 
 
-En esta clase se hizo un repaso completo de cálculo diferencial, cálculo integral y ecuaciones diferenciales. Se recordaron métodos y pasos a seguir en uno de los diferentes casos de transformadas inversas.
+En esta clase se hizo un repaso completo de cálculo diferencial, cálculo integral y ecuaciones diferenciales. Se recordaron métodos y pasos a seguir en uno de los diferentes casos de fracciones parciales.
 
 ## 9.Referencias 
 
