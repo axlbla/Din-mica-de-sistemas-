@@ -192,7 +192,7 @@ $$f(t)=-e^{2t}+2e^{3t}$$
 
 ## 7.Github 
 
-En un pequeño espacio nos explico como crear la cuenta de github para el metodo de trabajo propuesto , tambien nos enseño a crear una carpeta para alojar los trabajos y el tipo de programacion de texto a usar en los documentos 
+En un breve espacio, nos explicó cómo crear una cuenta de GitHub para el método de trabajo propuesto. También nos enseñó a crear una carpeta para alojar los trabajos y el tipo de programación de texto a utilizar en los documentos.
 
 ## 8.Conclusiones 
 
