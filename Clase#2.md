@@ -1,16 +1,16 @@
 # Repaso de Conocimientos Previos
-## 1.Modelos Dinamicos 
-* En algunos campos no sinteresa representar modelos que varian con el tiempo de manera matematica para conocer sus variables en cualquier instante.
+## 1.Modelos Dinámicos
+* En algunos campos, nos interesa representar modelos que varían con el tiempo de manera matemática para conocer sus variables en cualquier instante.
 
 $$f(t)$$
 
-* Tambien nos es de interes cuantificar estas variables que obtenemos en los sitemas reprensentados.
+* También nos interesa cuantificar estas variables que obtenemos en los sistemas representados
 
   $$\frac{df(t)}{dt}$$
 
-## 2.Recordando calculo diferencial 
+## 2.Recordando Cálculo Diferencial 
 
->🔑 *Derivada:*  representa la tasa de cambio instantánea de una función en un punto determinado. Matemáticamente, la derivada de una función
+>🔑 *Derivada:*  Representa la tasa de cambio instantánea de una función en un punto determinado. Matemáticamente, la derivada de una función se define como:
 
 > Donde:
 > *  $$f'(x)$$ es la derivada de $$f(x)$$
@@ -46,58 +46,58 @@ $$\frac{df{(x)}}{dx}=3xy^{2}$$
 
 $$\frac{df{(4)}}{dx}=3y(4)^{2}=12y$$
 
- ## 2.2 Modelos de ecuacion diferenciales 
+ ## 2.2 Modelos de Ecuaciones Diferenciales
 
-Los modelos de ecuaciones diferenciales son representaciones matemáticas de sistemas o fenómenos del mundo real.
+Los modelos de ecuaciones diferenciales son representaciones matemáticas de sistemas o fenómenos del mundo real que describen cómo cambian sus variables en el tiempo.
 
 $$a_{1}\frac{d^{2}F}{dt}+a_{2}\frac{dF}{dt}+a_{3}F=u(t)$$
 
-* Donde F es la salida del sistema
+* Donde F es la salida del sistema.
 
-* U es la entrada del sistema 
+* U es la entrada del sistema. 
 
-* La solucion es una funcion derivada del sistema
+* La solución es una función derivada del sistema.
 
-  ### 2.2.1 Caracteristicas de las ecuaciones diferenciales
+  ### 2.2.1 Características de las Ecuaciones Diferenciales
 
->🔑 *Ecuacion Lineal Invariante en el tiempo:* Estas ecuaciones estan hechas para sistemas invariantes en el tiempo , o que permanecen estaticos al pasar el tiempo , se pueden identificar por que todas sus componentes son constantes y todas ellas estan elevadas a un exponente 1:
+>🔑 *Ecuación Lineal Invariante en el Tiempo:* Estas ecuaciones están diseñadas para sistemas invariantes en el tiempo, es decir, aquellos que permanecen estáticos al transcurrir el tiempo. Se pueden identificar porque todas sus componentes son constantes y están elevadas a un exponente de 1.
 
 > $$\frac{d^{2}X{(t)}}{dt^{2}}+5\frac{dx{(t)}}{dt}+10x{(t)}=0$$
 
 
->🔑 *Ecuacion Lineal Variante En El tiempo:* Estas ecuacions se aplican en sistemas en los cuales su resultado no depende del tiempo si no de el valor que tenga en el instante de la aplicacion de la misma, se pueden reconocer por que algunas de sus componentes hacen parte de funciones que cambian segun su valor como "sen(x)" o "cos(x)" y todas ellas estan elevadas a un exponente 1:
+>🔑 *Ecuación Lineal Variante en el Tiempo:* Estas ecuaciones se aplican en sistemas cuyo resultado no depende del tiempo, sino del valor que tengan en el instante de su aplicación. Se pueden reconocer porque algunas de sus componentes forman parte de funciones que cambian según su valor, como "sen(x)" o "cos(x)",  y todas ellas están elevadas a un exponente de 1.
 
 > $$\frac{d^{2}X{(t)}}{dt^{2}}+(1-cos(2t))x{(t)}=0$$
 
->🔑 *Ecuacion No Lineal Variante En El Tiempo:*  Estas ecuacions se aplican en sistemas en los cuales su resultado no depende del tiempo si no de el valor que tenga en el instante de la aplicacion de la misma, se pueden reconocer por que algunas de sus componentes hacen parte de funciones que cambian segun su valor como "sen(x)" o "cos(x)" y todas o algunas ellas estan elevadas a un exponente superior de 1:
+>🔑 *Ecuación No Lineal Variante en el Tiempo:*  Estas ecuaciones se aplican en sistemas cuyo resultado no depende del tiempo, sino del valor que tengan en el instante de su aplicación. Se pueden reconocer porque algunas de sus componentes forman parte de funciones que cambian según su valor, como "sen(x)" o "cos(x)", y todas o algunas de ellas están elevadas a un exponente superior a 1
 
 >$$\frac{d^{2}x{(t)}}{dt^{2}}+\frac{dx{(t)}}{dt}+x(t)+x^{3}(t)=sen(wt)$$
 
->🔑 *Ecuacion no Lineal Invariante en el tiempo:* Estas ecuaciones estan hechas para sistemas invariantes en el tiempo ,  se pueden identificar por que todas sus componentes son constantes y todas o algunas ellas estan elevadas a un exponente superior de 1:
+>🔑 *Ecuación No Lineal Invariante en el Tiempo:* Estas ecuaciones están diseñadas para sistemas invariantes en el tiempo. Se pueden identificar porque todas sus componentes son constantes y todas o algunas de ellas están elevadas a un exponente superior a 1.
 
 >$$\frac{d^{2}x{(t)}}{dt^{2}}+(x^{2}(t)-1)\frac{dx{(t)}}{dt}+x(t)=0$$
 
-## 3.Sistemas Lineales y No lineales 
+## 3.Sistemas Lineales y No Lineales
 ### 3.1.Lineales 
->🔑 *sistemas Lineales:* Un sistema lineal es un modelo matemático que se basa en ecuaciones de primer grado y en el uso de un operador lineal.Tambien se concidera lineal cuando se cumple el principio de superposicion basicamente nos dice que al aplicar dos o mas estiumulos a un sistema nuestro resultado es la suma individul de las mismas.estos tambien cumplen con la condicion de porporcionalidad entre entrada y salida.
+>🔑 *sistemas Lineales:* Un sistema lineal es un modelo matemático basado en ecuaciones de primer grado y en el uso de un operador lineal. También se considera lineal cuando cumple el principio de superposición, que básicamente establece que al aplicar dos o más estímulos a un sistema, el resultado es la suma individual de sus efectos. Además, estos sistemas cumplen con la condición de proporcionalidad entre la entrada y la salida.
 ### 3.2.Lineales 
->🔑 *sistemas no Lineales:* son  sistemas en las que sus componentes varian de grado o se encuentran operadores que pueden cambiar segun su valor este sistema no cumple con el principio de superposicion,estos sitemas se linealizan a un punto en donde se cumpla el principio de superposicon.
+>🔑 *sistemas no Lineales:* Son sistemas en los que sus componentes varían de grado o incluyen operadores que pueden cambiar según su valor. Este sistema no cumple con el principio de superposición. Sin embargo, estos sistemas pueden ser linealizados en un punto donde se cumpla dicho principio.
 
-## 4.Modelamiento y Validacion 
+## 4.Modelamiento y Validación 
 
-Al realizarce este proceso se tiene que tener el nivel de incertidumbre que puede llegar a tener nuestro modelo matematico la mejor forma para hacer esto es el tener obtener una salida en nuestro sistema teorico y compararlo con los valores de nuestro sistema fisico, asi podemos mirar si el nivel de incertidumbre es aceptable o no.
- ### 4.1Influencia de parametros 
-Es una manera sencilla de entender ciertos escenarios que se pueden llegar a ver o obtener dos ejemplos de ellos son 
+Al realizar este proceso, es importante considerar el nivel de incertidumbre que puede tener nuestro modelo matemático. La mejor forma de hacerlo es obtener una salida en nuestro sistema teórico y compararla con los valores de nuestro sistema físico. De esta manera, podemos determinar si el nivel de incertidumbre es aceptable o no.
+ ### 4.1Influencia de Parámetros 
+Es una manera sencilla de entender ciertos escenarios que pueden presentarse. Dos ejemplos de ello son:
 
-* Comportamiento sinusoidal: En este podemos ver que la variable a obtener se va comportar de manera sinusoidal al ser medida a traves del tiempo
+* Comportamiento sinusoidal: En este caso, podemos observar que la variable a obtener se comportará de manera sinusoidal cuando sea medida a través del tiempo.
 
-* Decaimiento de parametros: en este podemos ver que la variable a obtener o que va ha ser observada va a disminuir de manera exponencial 
+* Decaimiento de parámetros: En este caso, podemos observar que la variable a obtener o que será observada disminuirá de manera exponencial.
 
-* Combinacion de las dos anteriores: Esta es una suma de las dos anterioses , se mueve de manera sinusoidal y al tiempo va disminuyendo
+* Combinación de las dos anteriores: Es una suma de las dos anteriores; la variable se mueve de manera sinusoidal y, al mismo tiempo, va disminuyendo.
    
 ## 5.Transformada de LaPlace
 
-La Transformada de LaPlace es un metodo o forma de resolver ecuaciones diferenciales , por medio de un cambio deometrico del dominio del tiempo hacia el dominio de la frecuencia, de los metodos mas usados para la solucion de sistemas.
+La Transformada de Laplace es un método o forma de resolver ecuaciones diferenciales mediante un cambio geométrico del dominio del tiempo al dominio de la frecuencia. Es uno de los métodos más utilizados para la solución de sistemas.
 
  $$x(t)-> X(s)$$
 
@@ -105,44 +105,44 @@ $$X(s)=\int_{0}^{inf} x(t)*e^{-st}$$
 
 ### 5.1.Transformada Inversa de LaPlace
 
-Es una manera de devolver una ecuacion diferencial que se paso de respecto al tiempo (t) a la frecuencia (s) devuelta al tiempo (t), cuando estas son directas son muy sencillas, pero si son una fusion de diferentes funciones se tiene que llevar a fracciones parciales para ser simplificadas y poderse solucionar de manera mas sencilla.
+Es una manera de regresar una ecuación diferencial que fue transformada del dominio del tiempo (t) al dominio de la frecuencia (s) nuevamente al tiempo (t),Cuando la transformada es directa, el proceso es sencillo, pero si es una combinación de diferentes funciones, es necesario descomponerla en fracciones parciales para simplificarla y facilitar su solución.
 
 $$X(s)-> x(t)$$
 
 ### 5.1.1 Propiedades 
 
-nos demostraron algunas propiedades como la lidealidad , el despalazamiento , desplazamiendto en s y el escalado en t
+Nos demostraron algunas propiedades como la linealidad, el desplazamiento, el desplazamiento en s y el escalado en t .
 
 ### 5.1.2Tranformada escalon unitario 
 
-es una técnica que se utiliza para definir el segundo teorema de traslación o traslación en el tiempo, es utilizada principal mente en informatica para idealizar un interruptor , haceidno que cuando t>o representa un 1 logico y cuando t<=0 es un 0 logico.
+Es una técnica utilizada para definir el segundo teorema de traslación o traslación en el tiempo. Se emplea principalmente en informática para idealizar un interruptor, haciendo que cuando t>0  represente un 1 lógico y cuando t<=0 es un 0 lógico.
 
 ### 5.1.3Tranformada funcion rampa
 
-es una función real que es continua y diferenciable en todo su dominio, excepto en un punto (1,1) , es usada en electronica  para sobre corrientes, su funcion representativa es:
+Es una función real que es continua y diferenciable en todo su dominio, excepto en un punto(1,1)Se utiliza en electrónica para representar sobrecorrientes. Su función representativa es:
 
 $$L[tu(u)]=\frac{1}{s^{2}}$$
 
-### 5.1.3Tranformada funcion senosiodal
+### 5.1.3Transformada de la Función Sinusoidal
 
-es una manera de trasladar la funcio seinusoidal de diferentes maneras su transformada es: 
+Es una manera de trasladar la función sinusoidal de diferentes formas. Su transformada es:
 
 $$L[Asen(wt)]=\frac{Aw}{(s^{2}+w^{2})}$$
 
-### 5.1.3Tranformada de una funcion 
+### 5.1.3Transformada de una Función
 
 $$L[f(t)]=F(s)$$
 
-### 5.1.4Tranformada de una funcion 
+### 5.1.4Transformada de la Derivada 
 
 $$L[f^{n}(t)]=s^{n}F(s)-s^{n-1}f(0)-...-sf^{n-1}(0)-f^{n}(0)$$
 
-## 6.Descomposicion en fracciones parciales 
- se identifican 4 casos , pero en esta clase solo vimos dos de ellos ,se proponen unos ejercicios en clases 
+## 6.Descomposición en Fracciones Parciales 
+Se identifican cuatro casos, pero en esta clase solo vimos dos de ellos. Se propusieron algunos ejercicios en clase. 
 
  ### 6.1.Caso 1
 
- en este caso se trabaja con raices reales y distintas , se tiene una transformada inversa de laPlace y se lleva a fracciones parciales para ser resuelta 
+ En este caso, se trabaja con raíces reales y distintas. Se aplica la transformada inversa de Laplace y se descompone en fracciones parciales para resolverla. 
  
 💡 **Ejemplo 1:** Obtenga la transformada inversa de:
 
@@ -192,7 +192,64 @@ $$f(t)=-e^{2t}+2e^{3t}$$
 
  ### 6.2.Caso 2
 
- En este caso vemos cuando son raices iguales, se tiene una transfomada y se aplica su inversa llevandose a fracciones parciales con raices iguales:
+ En este caso, analizamos cuando las raíces son iguales. Se tiene una transformada y se aplica su inversa, descomponiéndola en fracciones parciales con raíces iguales.
 
  💡 **Ejemplo 1:** Obtenga la transformada inversa de:
+
+  $$G(s)=\frac{2s^{2}+6s+5}{(s+2)(s+1)^{2}}$$
+
+  $$\frac{2s^{2}+6s+5}{(s+2)(s+1)^{2}}=\frac{A}{(s+2)}+\frac{B}{(s+1)}+\frac{c}{(s+1)^{2}}$$
+
+  $$2s^{2}+6s+5=A(s+1)^{2}+B(s+2)(s+1)+C(s+2)$$
+
+  $$A=1$$
+
+  $$B=1$$
+
+  $$C=1$$
  
+$$g(t)=e^{-2t}+e^{-t}+te^{-t}$$
+
+### 6.2.1 Ejercicios
+
+a)📚
+
+$$F(s)=\frac{s^{2}+2s+3}{(s+1)^{3}}$$
+
+$$\frac{s^{2}+2s+3}{(s+1)^{3}}=\frac{A}{(s+1)}+\frac{B}{(s+1)^{2}}+\frac{C}{(s+1)^{3}}$$
+
+  $$s^{2}+2s+3=A(s+1)^{3}+B(s+1)^{2}+C$$
+
+$$A=1$$
+
+$$B=0$$
+
+$$C=2$$
+
+$$f(t)=e^{-t}+t^{2}e^{-t}$$
+
+b)📚
+
+$$F(s)=\frac{2s^{2}+1}{(s-2)^{3}}$$
+
+$$\frac{2s^{2}+1}{(s-2)^{3}}=\frac{A}{(s-2)}+\frac{B}{(s-2)^{2}}+\frac{C}{(s-2)^{3}}$$
+
+$$2s^{2}+1=A(s-2)^{3}+B(s-2)^{2}+C$$
+
+$$A=2$$
+
+$$B=8$$
+
+$$C=9$$
+
+$$f(t)=2e^{t}+8te^{2t}+\frac{9t^{2}e^{2t}}{2}$$
+
+## 7.Conclusiones 
+
+En esta clase se hizo un repaso completo de cálculo diferencial, cálculo integral y ecuaciones diferenciales. Se recordaron métodos y pasos a seguir en dos de los diferentes casos de transformadas inversas.
+
+## 8.Referencias 
+
+* https://www.youtube.com/watch?v=HZZ9SFTFlyo
+
+* https://www.youtube.com/watch?v=C3nEBf_Vgzg
