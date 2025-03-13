@@ -29,16 +29,17 @@ $$f(x)=x^2$$
 
 $$\frac{df(2)}{dx}=2x=2(2)=4$$
 
-## 2.1 Ejercicios 
-
-a)📚
+# 2.1 Ejercicios 
+📚
+a)derivar:
 
  $$f{(x)}=x^{3}$$
 
 $$\frac{df{(x)}}{dx}=3x^{2}$$
 $$\frac{df{(1)}}{dx}=3(1)^{2}=3$$
 
-b)📚
+📚
+b)derivar:
 
  $$f{(x)}=yx^{3}$$
 
@@ -161,9 +162,9 @@ $$C=7/2$$
 
 $$g(t)=\frac{-1}{6}e^{-t}-\frac{4}{3}e^{2t}+\frac{7}{2}e^{3t}$$
 
-### 6.1.1 Ejercicios
-
-a)📚
+# 6.1.1 Ejercicios
+📚
+a)encontrar f(t):
 
 $$F(s)=\frac{2s+7}{(s-9)(s+5)}$$
 
@@ -178,7 +179,8 @@ $$A=\frac{3}{14}$$
 
 $$f(t)=\frac{25}{14}e^{9t}+\frac{3}{14}e^{-5t}$$
 
-b)📚
+📚
+b)encontrar f(t):
 
 $$F(s)=\frac{s-1}{(s-2)(s-3)}$$
 
