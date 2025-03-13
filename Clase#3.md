@@ -22,9 +22,10 @@ En este caso, analizamos la situación en la que las raíces son iguales. Se tie
  
 $$g(t)=e^{-2t}+e^{-t}+te^{-t}$$
 
-### 1.1.1 Ejercicios
+# 1.1.1 Ejercicios
 
-a)📚
+📚
+a)Encuentre f(t):
 
 $$F(s)=\frac{s^{2}+2s+3}{(s+1)^{3}}$$
 
@@ -84,10 +85,10 @@ $$\frac{\frac{1}{3}}{(s+1)^{2}+1}+\frac{\frac{2}{3}}{(s+1)^{2}+4}$$
 
 $$g(t)=\frac{1}{3}e^{-t}sen(t)+\frac{1}{3}e^{-t}sen(2t)$$
 
-### 1.2.1 Ejercicios
+# 1.2.1 Ejercicios
 
-a)📚
-
+📚
+a)Encuentre f(t):
 
 $$F(s)=\frac{3s+5}{9s^{2}-12s+20}$$
 
@@ -117,7 +118,9 @@ $$(\frac{3}{9})\frac{(s-\frac{2}{3})}{(s-\frac{2}{3})^{2}+\frac{16}{9}}+(\frac{7
 
 $$f(t)=(\frac{3}{9})\frac{(s-\frac{2}{3})}{(s-\frac{2}{3})^{2}+\frac{16}{9}}+(\frac{7}{9})*\frac{3}{4}\frac{\frac{4}{3}}{(s-\frac{2}{3})^{2}+\frac{16}{9}}=\frac{1}{2}e^{\frac{2}{3}t}cos(\frac{4}{3}t)+\frac{7}{12}e^{\frac{2}{3}t}sen(\frac{4}{3}t)$$
 
-b)📚
+📚
+b)Encuentre f(t):
+
 
 $$F(s)=\frac{2}{s(s^{2}+1)}$$
 
@@ -178,9 +181,11 @@ y =
 (exp(-t)*sin(t))/3 + (sin(2*t)*exp(-t))/3
  
 ```
-## 2.1 ejercicios 
+# 2.1 ejercicios 
 
-a)📚
+📚
+a)Encuentre f(t):
+
 
 $$F(s)=\frac{s^{2}+2s+3}{(s+1)^{3}}$$
 
@@ -199,7 +204,9 @@ y =
 exp(-t) + t^2*exp(-t)
 ```
 
-b)📚
+📚
+b)Encuentre f(t):
+
 
 $$F(s)=\frac{3s+5}{9s^{2}-12s+20}$$
 
