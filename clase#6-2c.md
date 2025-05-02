@@ -38,7 +38,7 @@ $$T {(t)} -k * \theta(t) -b *\frac{d\theta (t)}{dt}=J *\frac{d^{2}\theta(t) }{dt
 >$$W=fx  N-m$$
 >$$W=\frac{1}{2}kx^{2}$$
 >
->🔑*Energía:*Capacidad para realizar el trabajo. Existen dos tipos de energías.
+>🔑*Energía:* Capacidad para realizar el trabajo. Existen dos tipos de energías.
 >
 >*Energía potencial
 >
@@ -46,22 +46,23 @@ $$T {(t)} -k * \theta(t) -b *\frac{d\theta (t)}{dt}=J *\frac{d^{2}\theta(t) }{dt
 >
 >>🔑*Energía Potencial:* La energía potencial varía según la posición respecto a una referencia. Los elementos que almacenan este tipo de energía son los resortes y las masas.
 >>
->>$$U=mgh$$
+>> $$U=mgh$$
 >>
 >>La energía potencial en un resorte con características dinámicas es:
 >>
 >>$$P=kxx^{'}=U^{'}$$
 >>
->>🔑*Energía Cinetical:*La energía cinética se da por la velocidad. Solo los cambios de inercia producen esta energía, como lo pueden ser fuerzas de aceleración o desaceleración.
+>>🔑*Energía Cinetical:* La energía cinética se da por la velocidad. Solo los cambios de inercia producen esta energía, como lo pueden ser fuerzas de aceleración o desaceleración.
 >>
->>$$T=\frac{1}{2}mv^{2}=\frac{1}{2}J\theta ^{2}$$
+>> $$T= \frac{1}{2}m v ^{2}= \frac{1}{2}J \theta ^{2}$$
 >>
->🔑*Potencia:*La realización del trabajo que varía con respecto al tiempo.
+>🔑*Potencia:* La realización del trabajo que varía con respecto al tiempo.
 >
 >>La potencia en una masa es:
 >>
->>$$P=mx^{''}x^{'}=T^{'}=m *a *v$$
->🔑*Energía disipada:*Los amortiguadores disipan energía y potencia. Sus representaciones matemáticas son:
+>> $$P=m x ^{''}x^{'}= T^{'}=m *a *v$$
+>>
+>🔑*Energía disipada:* Los amortiguadores disipan energía y potencia. Sus representaciones matemáticas son:
 >>
 >> $$P=bx^{'2}$$
 
@@ -71,7 +72,7 @@ Para estos análisis se supone que el sistema conserva la energía. La fricción
 
 ### 3.1.Sistemas conservativos 
 
->🔑*sistemas conservativos:*Todas las clases de energía existentes en el sistema se manifiestan como movimientos o trabajo mecánico.
+>🔑*sistemas conservativos:* Todas las clases de energía existentes en el sistema se manifiestan como movimientos o trabajo mecánico.
 >
 >$$\bigtriangleup(T+U)=\bigtriangleup\omega=0$$
 >
@@ -119,7 +120,7 @@ Muy parecido a los otros sistemas, se hace un diagrama de cuerpo libre y se comi
 
 ![image](https://github.com/user-attachments/assets/5342f65f-7d3a-44f0-b3cf-b75b68f87669)
 
-#### 4.3.2.Análisis y generación de ecuaciones"
+#### 4.3.2.Análisis y generación de ecuaciones
 
 $$T_{m}- T _{1} - B _{m}\frac{d\theta }{dt} = J _{m}\frac{d^{2}\theta }{dt^{2}}$$
 
@@ -198,6 +199,6 @@ Haciendo álgebra para simplificar la ecuación, tenemos:
 
 $$U _{t}-6\frac{dy _{t}}{dt}-2 y _{t} = 0$$
 
-## 5.Conclusión
+## 6.Conclusión
 
 En esta clase se aprendió a modelar los sistemas rotacionales y translacionales. También vimos circuitos eléctricos RLC, aplicando leyes vistas en otras materias para así generar ecuaciones que representen los sistemas con sus características dinámicas, aprendiendo el análisis básico de elementos presentes tanto eléctrica como mecánicamente.
