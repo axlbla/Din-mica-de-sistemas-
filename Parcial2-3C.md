@@ -80,6 +80,6 @@ $$\frac{ -(e _{t} + 2 \frac{ i _{1(t)}}{d _ {t}} + 4 \frac{d(v _{t})}{d _{t}} + 
 
 Siendo esta última la ecuación del sistema obtenida mediante el análisis nodal.
 
-# 3. Conclusión
+# 2. Conclusión
 
 En conclusión, se realizaron ejercicios de análisis mecánico y eléctrico, poniendo en práctica los conocimientos adquiridos durante el segundo corte. Este enfoque permitió aplicar las técnicas de modelado y análisis, tanto en el ámbito físico como en el eléctrico, para obtener las ecuaciones que describen el comportamiento del sistema. Estos ejercicios refuerzan la comprensión de los conceptos estudiados.
