@@ -190,3 +190,26 @@ $$\ lim _{s \to 0 } s (\frac{4* \frac{1}{s} }{5s+1})$$
 * Obtenemos que el valor final del sistema, en su estado estacionario, es:
 
 $$\ lim _{s \to 0 } (\frac{4}{5s+1}) =4$$
+
+## 5. Conclusión
+
+En conclusión, en esta clase aprendimos a identificar características de los sistemas por medio del análisis de las funciones de transferencia, tales como:
+
+* Tipos de funciones de transferencia.
+* Ceros de las funciones de transferencia.
+* Polos de las funciones de transferencia.
+* El grado de la función de transferencia.
+* Comportamiento según la entrada aplicada al sistema.
+
+Estas son algunas de las cosas que ya podemos identificar gracias al análisis enseñado en esta clase. También aprendimos a graficar los valores que toma $$𝑠$$ para evaluar los ceros de las funciones, así como los valores que toma $$𝑠$$ para identificar los polos de las funciones.
+
+## 6. Ejercicios adicionales 
+* Identifique en las siguientes funciones sus ceros, polos, el tipo de función y su valor final utilizando una entrada escalón:
+💡**Ejemplo 1:**
+
+$$G _{s}= \frac{8}{s ^{3}+6 s ^{2} + 11s + 6}$$
+* Ceros de la funcion:
+R/ No presenta ceros
+* Polos de la funcion
+$$
+  
