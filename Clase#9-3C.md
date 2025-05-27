@@ -196,20 +196,58 @@ $$\ lim _{s \to 0 } (\frac{4}{5s+1}) =4$$
 En conclusión, en esta clase aprendimos a identificar características de los sistemas por medio del análisis de las funciones de transferencia, tales como:
 
 * Tipos de funciones de transferencia.
+  
 * Ceros de las funciones de transferencia.
+  
 * Polos de las funciones de transferencia.
+  
 * El grado de la función de transferencia.
+  
 * Comportamiento según la entrada aplicada al sistema.
 
 Estas son algunas de las cosas que ya podemos identificar gracias al análisis enseñado en esta clase. También aprendimos a graficar los valores que toma $$𝑠$$ para evaluar los ceros de las funciones, así como los valores que toma $$𝑠$$ para identificar los polos de las funciones.
 
 ## 6. Ejercicios adicionales 
 * Identifique en las siguientes funciones sus ceros, polos, el tipo de función y su valor final utilizando una entrada escalón:
+
+$$U _{s}= \frac{1}{s}$$
+
 💡**Ejemplo 1:**
 
 $$G _{s}= \frac{8}{s ^{3}+6 s ^{2} + 11s + 6}$$
+
 * Ceros de la funcion:
+  
 R/ No presenta ceros
+
 * Polos de la funcion
-$$
+  
+$$D _{s} =s ^{3} + 6 s ^{2} +11s+6=0$$
+$$D _{s} =(s+1)(s+3)(s+2)=0$$
+$$s=-1$$
+$$s=-3$$
+$$s=-2$$
+
+* Tipo de función
+
+$$m=3$$
+$$n=0$$
+
+$$m>n$$
+
+Por ende, el sistema es estrictamente propio.
+
+* Valor final de la funcion
+
+$$\lim_{s \to 0} s\frac{8 * U _{s}}{s ^{3} + 6 s ^{2} + 11s+6}$$
+
+$$\lim_{s \to 0} s\frac{8 * \frac{1}{s}}{s ^{3} + 6 s ^{2} + 11s+6} = \frac{4}{3}$$
+
+R/Su valor final es $$4/3$$
+
+* Graficación de ceros y polos:
+
+![polos funcion1](https://github.com/user-attachments/assets/c1197518-9b33-46fe-aa25-eff820919fa0)
+
+💡**Ejemplo 2:**
   
