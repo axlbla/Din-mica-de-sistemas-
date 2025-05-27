@@ -191,23 +191,7 @@ $$\ lim _{s \to 0 } s (\frac{4* \frac{1}{s} }{5s+1})$$
 
 $$\ lim _{s \to 0 } (\frac{4}{5s+1}) =4$$
 
-## 5. Conclusión
-
-En conclusión, en esta clase aprendimos a identificar características de los sistemas por medio del análisis de las funciones de transferencia, tales como:
-
-* Tipos de funciones de transferencia.
-  
-* Ceros de las funciones de transferencia.
-  
-* Polos de las funciones de transferencia.
-  
-* El grado de la función de transferencia.
-  
-* Comportamiento según la entrada aplicada al sistema.
-
-Estas son algunas de las cosas que ya podemos identificar gracias al análisis enseñado en esta clase. También aprendimos a graficar los valores que toma $$𝑠$$ para evaluar los ceros de las funciones, así como los valores que toma $$𝑠$$ para identificar los polos de las funciones.
-
-## 6. Ejercicios adicionales 
+## 5. Ejercicios adicionales 
 * Identifique en las siguientes funciones sus ceros, polos, el tipo de función y su valor final utilizando una entrada escalón:
 
 $$U _{s}= \frac{1}{s}$$
@@ -235,7 +219,7 @@ $$n=0$$
 
 $$m>n$$
 
-Por ende, el sistema es estrictamente propio.
+R/ Por ende, el sistema es estrictamente propio.
 
 * Valor final de la funcion
 
@@ -251,3 +235,62 @@ R/Su valor final es $$4/3$$
 
 💡**Ejemplo 2:**
   
+$$G(s)=\frac{(s+2)}{(s+3)(s ^{2} + 0.5s +1)}$$
+
+* Ceros de la funcion:
+
+$$N _{s}= s+2=0$$
+
+$$s=-2$$
+  
+R/ presenta un cero en el punto -2
+
+* Polos de la funcion
+
+$$D _{s} =(s+3)(s ^{2} +0.5s +1)=0$$
+
+$$s=-3$$
+$$s=-1/4 + 0.95i$$
+$$s=-1/4 - 0.95i$$
+
+R/ Presenta 3 polos 
+
+* Tipo de función
+
+$$m=3$$
+$$n=1$$
+
+$$m>n$$
+
+R/ Por ende, el sistema es estrictamente propio.
+
+* Valor final de la funcion
+
+  $$\lim_{s \to 0} s\frac{(s+2) * U _{s}}{(s+3)(s ^{2} +0.5s +1)}$$
+
+$$\lim_{s \to 0} s\frac{(s+2)* \frac{1}{s}}{(s+3)(s ^{2} +0.5s +1)} = \frac{2}{3}$$
+
+R/Su valor final es $$2/3$$
+
+
+* Graficación de ceros y polos:
+
+![ceros y polos](https://github.com/user-attachments/assets/a7ef4024-fc6d-4b03-92f2-92747668bfed)
+
+## 6. Conclusión
+
+En conclusión, en esta clase aprendimos a identificar características de los sistemas por medio del análisis de las funciones de transferencia, tales como:
+
+* Tipos de funciones de transferencia.
+  
+* Ceros de las funciones de transferencia.
+  
+* Polos de las funciones de transferencia.
+  
+* El grado de la función de transferencia.
+  
+* Comportamiento según la entrada aplicada al sistema.
+
+Estas son algunas de las cosas que ya podemos identificar gracias al análisis enseñado en esta clase. También aprendimos a graficar los valores que toma $$𝑠$$ para evaluar los ceros de las funciones, así como los valores que toma $$𝑠$$ para identificar los polos de las funciones.
+
+
