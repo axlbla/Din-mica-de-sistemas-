@@ -152,4 +152,48 @@ $$\frac{I _{(s)}}{ V _{(S)}} = \frac{1}{L _{(a)}s+R _{(a)}}$$
 
 Para este analisis se deben tener en cuentas varias constantes y igualdades de transformacion.Tales como:
 
-* La corriente de armadura.En esta realcion todas las constantes $$(k _{c} i _{c} k _{a})$$ se vuelven $$K _{m}$$ asi obtenemos.
+* La corriente de armadura se relaciona con el voltaje  aplicado a la armadura.En este analisis se realcionan todas las constantes $$(k _{c} i _{c} k _{a})$$ haciendo que se vuelvan $$K _{m}$$ asi obtenemos:
+
+$$T _{m}= (k _{m}) I _{a (s)}$$
+
+* Se realiza una relacion entre los voltajes y los torques, obteniendo:
+
+$$V _{a(s)}= L _{(a)}s+R _{(a)}I _{a (s)} + V _{b(s)}$$
+
+* El voltaje inducido en la armadura es porporcional a la velocidad angular del eje:
+
+$$V _{b(s)}= k _{b} w _{s}$$
+
+* Al remplazar en las ecuaciones se obtiene
+
+$$I _{(s)}= \frac{V _{a(s)}-k _{b} w _{s}}{ L _{(a)}s + R _{(a)}}$$
+
+![image](https://github.com/user-attachments/assets/899ab540-e4ee-45e2-bd7e-db63988d29f1)
+
+#### 3.2.3Analisis mecanico de la carga y el torque 
+
+* El torque aplicado a la carag es el realizado por el motor menos la inercia de la carga
+
+  $$T _{c(s)}= T _{m(s)} - T _{p(s)}$$
+
+* En este sistema se realiza el mismo analisis mecanico que en metodo anterior, teniendo en cuenta la carga ,los momentos de inercia y el torque del motor 
+
+$$\frac{\theta _{s}}{T _{c(s)}} = \frac{1}{(js ^{2} + bs)}$$
+
+![image](https://github.com/user-attachments/assets/ddab7660-6470-4531-ac13-77e65646f2b4)
+
+
+#### 3.1.4Representacion de Diagramas de bloques 
+
+Ya por ultimo hacemos la representacion de diagramas de bloques obteniendo.
+
+![image](https://github.com/user-attachments/assets/bfcbe3f9-40b8-4f4d-9fbd-7e5bfbfedc3a)
+
+## 4.Relaciones de componentes en sistemas 
+
+Son relaciones de constantes dinamicas para hacer la transformacion de energia en los sistemas  dinamicos de estas hay mecanicas , electricas , hidrualicas, etc.
+
+### 4.1Engranajes y Poleas 
+
+Son dispositivos mecanicos que trasmiten la energia desde una parte del sistema a otra
+
