@@ -121,7 +121,7 @@ En este sistema se realiza un analisis mecanico teniendo en cuenta la carga los 
 
 $$J \frac{d^2 \theta  }{d t^2} + b\frac{\mathrm{d} \theta  }{\mathrm{d} t} + k\theta  = \tau _{(t)}$$
 
-Haciendo la funcion de trnsferencia obtenemos que:
+Haciendo la funcion de transferencia obtenemos que:
 
 $$\frac{\theta _{s}}{T _{c(s)}} = \frac{1}{(js ^{2} + bs)}$$
 
@@ -137,7 +137,19 @@ Ya por ultimo hacemos la representacion de diagramas de bloques obteniendo
 
 ### 3.1Corriente de Armadura
 
+#### 3.2.1Analisis electrico del motor 
+
 Para este analisis se hace mallas pero se hace la suposicion que la corriente de campo es constante.
 
-#### 3.1.1Analisis electrico del motor 
+![image](https://github.com/user-attachments/assets/1567eea7-8ba4-4477-bca2-0ae54717ec20)
 
+Despues de hacer el analisis obtenemos que:
+
+$$\frac{I _{(s)}}{ V _{(S)}} = \frac{1}{L _{(a)}s+R _{(a)}}$$
+
+
+#### 3.2.2Analisis Electromecanico(sub-Sistema de transformacion de energia)
+
+Para este analisis se deben tener en cuentas varias constantes y igualdades de transformacion.Tales como:
+
+* La corriente de armadura.En esta realcion todas las constantes $$(k _{c} i _{c} k _{a})$$ se vuelven $$K _{m}$$ asi obtenemos.
