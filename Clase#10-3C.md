@@ -35,7 +35,7 @@ Son sistemas que se encargan de transformar una energía entrante en otro tipo d
 
 * Relación eléctrica con la mecánica, donde tenemos que:
 
-  $$f _{(s)} = k _{s} * i$$
+$$f _{(s)} = k _{s} * i$$
 
 Donde tenemos que $$k _{s}$$ es una constante. Aplicando la transformada de Laplace y obteniendo la función de transferencia, se obtiene que:
 
@@ -175,7 +175,7 @@ $$I _{(s)}= \frac{V _{a(s)}-k _{b} w _{s}}{ L _{(a)}s + R _{(a)}}$$
 
 * El torque aplicado a la carga es el generado por el motor menos el efecto de la inercia de la carga.
 
-  $$T _{c(s)}= T _{m(s)} - T _{p(s)}$$
+$$T _{c(s)}= T _{m(s)} - T _{p(s)}$$
 
 * En este sistema se realiza el mismo análisis mecánico que en el método anterior, teniendo en cuenta la carga, los momentos de inercia y el torque del motor. 
 
@@ -236,7 +236,7 @@ Y los de traslación, cuyo modelamiento de constantes es el siguiente:
 
 ![image](https://github.com/user-attachments/assets/f4d2f55c-63e4-4cf0-a754-66269a083396)
 
-En los sensores encontramos dos tipos de sensores, lo de medición lineal y los no lineales, cada uno tiene su propio modelado de ecuaciones. Los lienales se representan de la siguiente manera:
+En los sensores encontramos dos tipos de sensores, los de medición lineal y los no lineales, cada uno tiene su propio modelado de ecuaciones. Los lineales se representan de la siguiente manera:
 
 ![image](https://github.com/user-attachments/assets/bc19c3b5-d758-4e89-9d7a-ae8cbc8f5a77)
 
@@ -254,12 +254,46 @@ Donde obtenemos que:
 
 ![image](https://github.com/user-attachments/assets/c19d43d2-5af9-4465-b4e0-100825f9dbdb)
 
-## 5.Conclusión
+# 5.Ejercicios 
+
+## 1.📚Ejercicio: Hallar la función de transferencia del siguiente sistema, sabiendo que la fuerza va a ser nuestra entrada y el movimiento nuestra salida.
+
+$$FT _{t} = \frac{X _{S}}{F _{S}}$$
+
+![image](https://github.com/user-attachments/assets/b0a5b6c2-7341-4eae-88c1-03dba48dbf5d)
+
+Se hace el diagrama de cuerpo libre del sistema mecánico con las fuerzas ejercidas sobre la masa.
+
+![image](https://github.com/user-attachments/assets/dc8d1202-cdf5-494a-85e5-c998c44539ad)
+
+Donde $$F _{m}$$ sería la fuerza que genera el resorte. En consecuencia, nuestra función de transferencia sería:
+
+$$ \frac{X _{S}}{F _{S}} = \frac{1}{ms ^{2}+ k}$$
+
+Graficando nuestro sistema en diagramas de bloques, tenemos que:
+
+![image](https://github.com/user-attachments/assets/8a6a571f-66ff-4760-9bdf-a691ac4a23fa)
+
+## 2.📚Ejercicio: 
+![image](https://github.com/user-attachments/assets/8ede5f24-a1b8-478d-9f22-88c979e935e5)
+
+Donde, al graficar el sistema, tenemos:
+
+![image](https://github.com/user-attachments/assets/e4a429ee-14ed-4ecb-aad0-41696474ec6a)
+
+Haciendo el análisis del sistema y usando la ecuación de balance de masas, obtenemos que:
+
+$$q _{1(t)} - \frac{h _{t}}{4} = 50 \frac{\mathrm{d} h _{t} }{\mathrm{d} t}$$
+
+Como penúltimo paso, aplicamos Laplace y obtenemos la función de transferencia:
+
+$$\frac{H _{s}}{ Q1 _{ s}}= \frac{1}{(50s + \frac{1}{4})}$$
+
+Por último, pasamos la función a un diagrama de bloques:
+
+![image](https://github.com/user-attachments/assets/0c38d281-bfc7-485b-965d-08db2523d8ae)
+
+
+## 6.Conclusión
 
 En esta clase se nos mostró el análisis y modelamiento por medio de un nuevo método el cual nos permite seccionar y analizar por separado para después juntar todas las ecuaciones o funciones de transferencia, además se nos dio una pequeña apertura a los diagramas de bloques y su representación.
-
-## 6.Ejercicios extras 
-
-
-
-
